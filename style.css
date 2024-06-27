@@ -106,7 +106,7 @@ p {
 
 .intro {
   padding: 124px 0 180px 0;
-  background-image: url("intro_bg.png");
+  background-image: url("https://evggeennniy.github.io/UristProject/intro_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -151,7 +151,7 @@ p {
 }
 @media (max-width: 575px) {
   .intro {
-    background-image: url("/static/img/intro_bg-mobile.png");
+    background-image: url("https://evggeennniy.github.io/UristProject/intro_bg-mobile.png");
     padding: 100px 0 235px 0;
   }
   .intro .intro__title {
@@ -202,7 +202,7 @@ p {
   justify-content: space-between;
   row-gap: 20px;
   -moz-column-gap: 60px;
-  column-gap: 60px;
+       column-gap: 60px;
   flex-wrap: wrap;
 }
 .aboutus .aboutus__services-icon {
@@ -510,4 +510,4 @@ p {
 
 .no-scroll {
   overflow: hidden;
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
