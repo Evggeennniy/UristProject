@@ -106,7 +106,7 @@ p {
 
 .intro {
   padding: 124px 0 180px 0;
-  background-image: url("/static/img/intro_bg.png");
+  background-image: url("/intro_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -202,7 +202,7 @@ p {
   justify-content: space-between;
   row-gap: 20px;
   -moz-column-gap: 60px;
-       column-gap: 60px;
+  column-gap: 60px;
   flex-wrap: wrap;
 }
 .aboutus .aboutus__services-icon {
@@ -510,4 +510,4 @@ p {
 
 .no-scroll {
   overflow: hidden;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
