@@ -319,7 +319,9 @@ p {
 }
 
 .info {
-  background-image: none;
+  background-image: url("https://evggeennniy.github.io/UristProject/info_bg.png");
+  background-size: cover;
+  background-position: center;
   background-color: #2d2d2d;
   padding: 70px 0 90px 0;
 }
@@ -378,6 +380,7 @@ p {
 }
 @media (max-width: 575px) {
   .info {
+    background-image: url("https://evggeennniy.github.io/UristProject/info_bg_mobile.png");
     padding: 40px 0;
   }
   .info .info__list-item {

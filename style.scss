@@ -381,10 +381,13 @@ $guarantees-icon-size: 71px;
   }
 }
 
-$info-bg: url("/static/img/info_bg.png");
+$info-bg: url("https://evggeennniy.github.io/UristProject/info_bg.png");
+$info-bg-mobile: url("https://evggeennniy.github.io/UristProject/info_bg_mobile.png");
 $info-button-bg: #808080;
 .info {
-  background-image: none;
+  background-image: $info-bg;
+  background-size: cover;
+  background-position: center;
   background-color: #2d2d2d;
   padding: 70px 0 90px 0;
 
@@ -453,6 +456,7 @@ $info-button-bg: #808080;
   }
 
   @media (max-width: 575px) {
+    background-image: $info-bg-mobile;
     padding: 40px 0;
 
     .info__list-item {
